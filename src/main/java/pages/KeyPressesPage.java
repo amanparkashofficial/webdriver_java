@@ -7,7 +7,7 @@ public class KeyPressesPage {
 
     private WebDriver driver;
     private By inputField = By.id("target");
-    //private By resultText = By.id("result");
+    private By resultText = By.id("result");
 
 
     public KeyPressesPage(WebDriver driver) {
