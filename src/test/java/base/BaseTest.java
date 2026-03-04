@@ -43,6 +43,7 @@ public class BaseTest {
         //System.out.println(driver.getTitle());
 
     }
+
     @AfterClass
     public void tearDown(){
         driver.quit();
